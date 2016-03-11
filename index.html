@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Notifications</title>
+    <link href="public/css/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="public/css/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="public/css/custome-style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="public/js/jquery.min.js"></script>
+    <script type="text/javascript" src="public/css/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="public/js/cust-script.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">
+                    <i class="fa fa-ioxhost logo"></i><label class="title">Innoplexus</label>
+                </a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="header-icons ">
+                    <i class="fa fa-bell-o notification-btn"></i>
+                    <span class="badge notification-counter notification-btn"></span>
+                    <div class="notification-list-wrapper">
+                        <div class="notification-arrow-container">
+                            <div class="notification-arrow"></div>
+                        </div>
+                        <div class="notification-container">
+                            <div class="text-center notification-header">
+                                <span class="notification-header-label">
+                                    Notifications
+                                    <span class="badge notification-second-counter">0</span>
+                                </span>
+                            </div>
+                            <div class="notification-list-container">
+                                <div class="no-notification-message notification-msg-item">
+                                    <div class="notification-img"></div>
+                                    <div class="notification-msg">No new notifications</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Ankur R <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#"><i class="fa fa-user"></i> Profile</a></li>
+                        <li><a href="#"><i class="fa fa-gears"></i> Settings</a></li>
+                        <li><a href="#"><i class="fa fa-sign-out"></i> Logout</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="dummy-notification-message notification-msg-item hidden">
+        <div class="notification-img"><img class="user-avatar" src=""></div>
+        <div class="notification-msg"></div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <p class="text-muted">Code licensed MIT, docs CC BY 3.0</p>
+        </div>
+    </footer>
+</body>
+</html>
