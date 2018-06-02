@@ -2,15 +2,15 @@
   "name" : "ankurvr/notificationbar",
   "type" : "test",
   "description": "This package is for testing ",
-    "keywords": ["log","logging"],
-    "homepage": "https://github.com/ankurvr/NotificationBar",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Ankur Raiyani",
-            "email": "ankurvr7003@gmail.com",
-            "homepage": "https://ankur.pro",
-            "role": "Developer"
-        }
-    ],
+  "keywords": ["log","logging"],
+  "homepage": "https://github.com/ankurvr/NotificationBar",
+  "license": "MIT",
+  "authors": [
+      {
+          "name": "Ankur Raiyani",
+          "email": "ankurvr7003@gmail.com",
+          "homepage": "https://ankur.pro",
+          "role": "Developer"
+      }
+  ]
 }
